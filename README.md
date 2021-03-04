@@ -15,7 +15,8 @@ branch practice repo
 
 while i goes up to 1~100,
 
-if i is times of 3: print 'fizz'
-if i is times of 5: print 'buzz'
-if i is times of 15: print 'fizzbuzz'
+<!-- TODO: fizzbuzz-if -->
+if i is times of 3: print 'fizz'  
+if i is times of 5: print 'buzz'  
+if i is times of 15: print 'fizzbuzz'  
 else, print i
