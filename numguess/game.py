@@ -1,16 +1,19 @@
 import random
 
+
 user_name = input('Enter your name: ')
 answer = random.randint(1,100)
 
 # for debugging.
 print(answer)
 
-guess = int(input('welcome {}. Guess the number: '.format(user_name)))
+guess = int(input('Welcome, {}. Guess the number! : '.format(user_name)))
 
-print(answer, guess)
+# for debugging.
+print(answer, guess, type(guess))
 
 if guess==answer:
-    print('Correct!')
+    print('Correct!!')
 else:
-    print('Wrong!! The answer was {}'.format(answer))
+    print('Wrong!!! The answer was {}.'.format(answer))
+
