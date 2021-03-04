@@ -15,8 +15,21 @@ branch practice repo
 
 while i goes up to 1~100,
 
-<!-- TODO: fizzbuzz-if -->
 if i is times of 3: print 'fizz'  
 if i is times of 5: print 'buzz'  
 if i is times of 15: print 'fizzbuzz'  
 else, print i
+
+## fizzbuzz with Korean or uppercase
+- **for complict test**
+- main: all strings with Korean
+- conflict-test: all string with uppercase
+  
+-> merge branch: 'fizzbuzz' replaced with Korean, 'buzz' and 'fizz' converted to uppercase
+
+## fizzbuzz with list comprehension
+- **for complict test**
+- main: range 1 to 300, all string should be lowercase
+- fb-listcomp: fizzbuzz with list comprehension (range 1 to 100)
+  
+-> merge branch: fizzbuzz with list comprehension (range 1 to 100)
